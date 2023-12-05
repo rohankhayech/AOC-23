@@ -1,3 +1,6 @@
+/**
+ * Day 1: Trebuchet?!
+ */
 fun main() {
     fun part1(input: List<String>): Int {
         // Map each line to its calibration value and take the sum.
@@ -40,7 +43,7 @@ fun main() {
     println("Part 1 correct?: ${part1(testInput1) == 142}")
 
     val testInput2 = readInput("Day01_test2")
-    println("Part 1 correct?: ${part2(testInput2) == 281}")
+    println("Part 2 correct?: ${part2(testInput2) == 281}")
 
     val input = readInput("Day01")
     part1(input).println()
